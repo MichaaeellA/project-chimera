@@ -3,16 +3,12 @@
 Project Chimera is an agentic infrastructure for building and governing
 Autonomous AI Influencers using a Planner–Worker–Judge swarm architecture.
 
-## Repository Structure
+## How to Run
+1. Clone repo
+2. Navigate to project root
+3. Run: python3 src/main.py
 
-- research/  
-  High-level architectural reasoning and strategy
-
-- reports/  
-  Submission-ready reports for the Agentic Infrastructure Challenge
-
-## Status
-
-- Day 1: Research Summary & Architectural Strategy ✅
-- Day 2: Technical Specifications (Upcoming)
-- Day 3: Implementation & Governance (Upcoming)
+## What it Shows
+- Planner generates tasks
+- Worker executes tasks
+- Judge validates tasks and triggers HITL escalation
